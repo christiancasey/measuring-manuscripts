@@ -1,5 +1,9 @@
 # Day 1 · Doing Philology
 
+# Traditional Philology
+
+Today is all about philology: what it is, what it's for, why we like it, and where it typically runs into barriers. One way of framing what we are learning in this course is to think of it as tools for breaking through these barriers, so it's a good idea to start by feeling them out ourselves. By the end of today's lesson, you should be able to articulate a wishlist of abilities. What would you do if you could wave a magic wand over a text and learn anything you want to know about it? Computational philology provides the magic, but first we need to figure out what we want to do and why.
+
 You don't need to read Old English today; everything's translated. The point is to make the decisions a philologist makes, and to notice how often there's no single right answer. We'll work on the opening of *Beowulf*, because one short passage runs through nearly everything traditional philology does.
 
 ```{admonition} Companion notebook—*One poem, three ways of reading*
