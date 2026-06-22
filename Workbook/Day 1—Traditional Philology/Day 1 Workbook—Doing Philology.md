@@ -82,17 +82,15 @@ You just read a six-hundred-year-old text and understood most of it. That is the
 
 Textual criticism begins with a basic fact: we rarely have the original. With the *Canterbury Tales* the problem is almost the opposite of a lost text, and no easier.
 
-- **No final version.** Chaucer died with the *Tales* unfinished and never fixed their order. There is no last copy in his own hand—arguably no single "original" ever existed.
+- **No final version.** Chaucer died with the *Tales* unfinished and never fixed their order. There is no last copy in his own hand. Arguably no single "original" ever existed.
 - **Eighty-odd witnesses.** The poem survives in around eighty manuscripts, no two identical. The two earliest and best, **Hengwrt** and **Ellesmere**, were written by the same professional scribe, and even they disagree and arrange the tales differently.
 - **A named scribe.** That scribe may have been one **Adam Pinkhurst**, identified in 2004 by Linne Mooney (an identification some scholars now dispute). If it holds, he is the same Adam whom Chaucer scolded in a short poem for careless copying:
 
   > Adam scriveyn, if ever it thee bifalle / Boece or Troylus for to wryten newe, / Under thy long lokkes thou most have the scalle, / But after my makyng thow wryte more trewe...
 
-  Roughly: *Adam, if you ever copy out my Boethius or Troilus again, may you get scabs under those long locks of yours unless you write it more faithfully.* The author is complaining, in writing, about the very process that will keep corrupting his text for centuries.
+  > Roughly: *Adam, if you ever copy out my Boethius or Troilus again, may you get scabs under those long locks of yours unless you write it more faithfully.*
 
-Each copy is a **witness**: it testifies, imperfectly, to what Chaucer wrote. When witnesses disagree—and across eighty copies they disagree constantly—the editor has to weigh them and decide. Doing that by hand across eighty manuscripts is the wall this course is built to break through.
-
-> 🔧 *TO BUILD:* an image of a manuscript page (the Ellesmere or Hengwrt Chaucer) to show the hand and the layout.
+Each copy is a **witness**: it testifies, imperfectly, to what Chaucer wrote. When witnesses disagree—and across eighty copies they disagree constantly—the editor has to weigh them and decide. Doing that by hand across eighty manuscripts is one of the walls this course is built to break through.
 
 ### Discussion questions
 - If there was never a single "original" *Canterbury Tales*, what is an editor even trying to reconstruct?
@@ -100,24 +98,22 @@ Each copy is a **witness**: it testifies, imperfectly, to what Chaucer wrote. Wh
 - Chaucer caught his scribe erring within his own lifetime. How much more drifts in over six hundred years of copying?
 - The two best copies were made by the *same* scribe. Why would they still differ?
 
-## Puzzle A · Be the editor
+## Be the editor
 
-Four scribes each copied the same couplet from the General Prologue. No two agree—and the word Chaucer actually wrote survives in *none* of them. Work out what line A originally said.
+Four scribes each copied the same couplet from the General Prologue. No two agree. Work out what line A originally said.
 
-| | line A ends… | line B ends… |
-|---|---|---|
-| **Witness 1** | …to seken straunge **shores** | …in sondry **londes** |
-| **Witness 2** | …to seken straunge **costes** | …in sondry **londes** |
-| **Witness 3** | …to seken straunge **londes** | …in sondry **londes** |
+|               | line A ends…                    | line B ends…          |
+| ------------- | ------------------------------- | --------------------- |
+| **Witness 1** | …to seken straunge **contrees** | …in sondry **londes** |
+| **Witness 2** | …to seken straunge **strondes** | …in sondry **londes** |
+| **Witness 3** | …to seken straunge **londes**   | …in sondry **londes** |
 | **Witness 4** | …to seken straunge **contrees** | …in sondry **londes** |
 
-Start here. Every witness ends line B with **londes**, so trust it—and remember that Chaucer's couplets rhyme. Line A therefore has to end on a word that rhymes with *londes*. Now look at the four candidates: *shores*, *costes*, *londes*, *contrees*. Not one of them gives you a working line. (Witness 3 "rhymes" only by repeating *londes* from the line below, which is just a copying slip—the eye jumping to the wrong line.)
+What did the line say? Write down your best guess and how you would defend it.
 
-So every surviving copy is wrong, and you have to reconstruct a reading none of them preserves. What did the line say? Write down your best guess and how you would defend it.
+With four copies it is hard; with eighty it is hopeless by hand. Tomorrow we line them all up by computer, recover the reading together, and see whether you were right.
 
-This is the moment the whole course turns on. With four copies it is hard; with eighty it is hopeless by hand. Tomorrow we line them all up by computer, recover the reading together, and see whether you were right.
-
-## Puzzle B · The words that fool you
+## The words that fool you
 
 Middle English is full of words that look like ones you know and mean something else. Read these, write down what you think each bold word means, then check the gloss.
 
@@ -129,17 +125,46 @@ Middle English is full of words that look like ones you know and mean something 
 
 Glosses: **vertú** = power, the force that makes plants grow (not *virtue*); **corages** = hearts, spirits, desires (not *courage*); **nyce** = foolish, ignorant (not *nice*); **sely** = innocent, blessed, or hapless, the ancestor of *silly*; **lewed** = unlearned, lay, as opposed to clergy (not *lewd*).
 
-Each is a small trap, and the only sure defense is evidence. To know what *sely* meant to Chaucer, you would want every place he uses it, lined up side by side. *If only* we could pull all of those up at once—which is Day 3.
+Each is a small trap, and the only sure defense is evidence. To know what *sely* meant to Chaucer, you would want every place he uses it, lined up side by side. *If only* we could pull all of those up at once.
 
+## Manuscript as data
+
+![Hengwrt Prologue](https://upload.wikimedia.org/wikipedia/commons/0/02/HengwrtChaucerOpening.jpg)
+Take a stab at transcribing the text you see in this photo of the Hengwrt Manuscript. You can use the transcription to help you, partially, but note that they are not identical.
+```
+Whan that Aprille with his shoures soote,
+The droghte of March hath perced to the roote,
+And bathed every veyne in swich licóur
+Of which vertú engendred is the flour;
+Whan Zephirus eek with his swete breeth
+Inspired hath in every holt and heeth
+The tendre croppes, and the yonge sonne
+Hath in the Ram his halfe cours y-ronne,
+And smale foweles maken melodye,
+That slepen al the nyght with open ye,
+So priketh hem Natúre in hir corages,
+Thanne longen folk to goon on pilgrimages,
+And palmeres for to seken straunge strondes,
+To ferne halwes, kowthe in sondry londes;
+And specially, from every shires ende
+Of Engelond, to Caunterbury they wende,
+The hooly blisful martir for to seke,
+That hem hath holpen whan that they were seeke.
+```
+
+### Discussion questions
+- What barriers do you encounter while transcribing this manuscript?
+- What might make this task easier?
+- What are the new problems that "making things easier" raises?
 ## Hearing a lost pronunciation
 
 One last obstacle, and a strange one: we can partly recover how Chaucer's English *sounded*, centuries before any recording, from the text alone. Two clues do it.
 
 First, **meter**. Chaucer's line is a ten-beat rhythm, and the opening only keeps that rhythm if you pronounce things we have since dropped—sounding the final *-e* in *soote* (SOH-te) and giving *Aprille* its full three syllables. The meter quietly records a pronunciation we no longer use.
 
-Second, **rhyme**. Some of Chaucer's rhymes no longer rhyme for us, because the long vowels of English shifted afterward (the change called the Great Vowel Shift). Where a rhyme has broken, it tells us the two words once sounded alike, and roughly how.
+Second, **rhyme**. Some of Chaucer's rhymes no longer rhyme for us, because the long vowels of English shifted afterward (the change called the [Great Vowel Shift](https://en.wikipedia.org/wiki/Great_Vowel_Shift)). Where a rhyme has broken, it tells us the two words once sounded alike, and roughly how.
 
-So a poem on a page turns out to carry its own soundtrack, if you know how to read it. Turning those marks into actual vowels is Day 5.
+So a poem on a page turns out to carry its own soundtrack, if you know how to read it.
 
 ### Discussion questions
 - If meter and rhyme preserve pronunciation, what can the written text never tell us about how Chaucer sounded?
@@ -162,7 +187,6 @@ A computer doesn't read a text the way you do, and it isn't meant to. What it of
 ### Some examples of real projects
 - [The Zodiac Glossary](https://zodiac-edit.fly.dev/)
 - [Isut](https://isut.uliege.be/)
-- [Egyptian Phonology](https://www.dropbox.com/scl/fi/53aym4k5fq8ql04cdx5au/Casey-2023-Egyptian-Phonology-Beginning-from-the-End-Offprint.pdf?rlkey=0mjz8daz5gr4sp70lscn4yzqo&dl=0)
 ### Trying it out in Colab
 
 Now we'll move to the Notebook to see some basic computational techniques in action. 

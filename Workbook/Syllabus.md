@@ -49,16 +49,6 @@ Students will produce one final project throughout their time in the course, whi
 
 ## Course Schedule
 
-### Bonus Teaser Session
-
-#### What is computational philology?
-
-- What exactly is philology?
-- How can we do it with computers?
-- What can computers do that traditional methods cannot?
-- Demonstration of a small computational philology project (the kind students will build)
-- Introduction of the final project: choosing one technique to develop and publish
-
 ### Week 1: Philological Foundations
 
 #### Day 1: Traditional Philology as Method

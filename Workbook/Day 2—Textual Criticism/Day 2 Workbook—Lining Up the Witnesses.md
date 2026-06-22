@@ -23,7 +23,7 @@ Yesterday you edited by hand. Today the computer does the alignment. Each surviv
 Copying introduces change: a slip, a correction, a dropped word. This is close enough to biological mutation that the same methods carry over. Measure how different each pair of witnesses is, and you can build a tree that groups the most similar copies—a first hypothesis about which copy descends from which. It stays a hypothesis. Two scribes can make the same easy error independently, and the tree can't distinguish that from shared descent.
 
 ### Discussion questions
-- Where does the comparison with DNA hold, and where does it break down? (A scribe, unlike a gene, can read what it copies.)
+- Where does the comparison with DNA hold, and where does it break down?
 - A family tree of manuscripts is a hypothesis. What evidence could confirm or undermine it?
 - Two scribes can make the same easy mistake independently. How might that fool a method that groups copies by shared readings?
 
