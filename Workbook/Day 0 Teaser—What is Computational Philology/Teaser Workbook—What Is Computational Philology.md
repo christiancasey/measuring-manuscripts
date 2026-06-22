@@ -1,6 +1,4 @@
 # Teaser · What Is Computational Philology?
-
-Ninety minutes to see what the course is and decide whether it's for you. There's nothing to install and nothing to memorize. You'll watch a few demonstrations, run some code, and get a sense of what these techniques are for.
 ## Philology
 
 *Philology* (from the Greek for "love of words") is the careful study of old texts: what a text says, how it came to be, what it meant to the people who wrote it, and by extension what it can teach us about ancient languages.
