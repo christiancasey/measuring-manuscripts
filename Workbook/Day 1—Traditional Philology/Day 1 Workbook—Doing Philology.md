@@ -71,7 +71,7 @@ who helped them when they were sick.
 
 ## Almost-English
 
-You just read a six-hundred-year-old text and understood most of it. That is the gift of Middle English, and also its trap. Reading Chaucer is a constant, low-grade act of translation, and the words that look most familiar are the ones most likely to deceive you. Every line asks you to decide what it means, and there is rarely a single right answer.
+You just read a six-hundred-year-old text and understood most of it. That is the gift of Middle English, and also its trap. Reading Chaucer is a constant, low-grade act of translation, and the words that look most familiar are the ones most likely to deceive you.
 
 ### Discussion questions
 - A modern edition can keep Chaucer's spelling or modernize it, gloss the hard words or leave them. What does each choice give the reader, and what does it take away?

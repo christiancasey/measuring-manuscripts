@@ -15,15 +15,14 @@ Take "the cat sat on the mat." How many words is that? How many *distinct* words
 
 - a **token** is each running word,
 - a **type** is each distinct form,
-- a **lemma** is the dictionary headword that groups inflected forms (*blew*, *blow*, *blowing* → *blow*).
+- a **lemma** is the dictionary headword that groups inflected forms (*swim*, *swimming*, *swam*, *swum*).
 
-Your count changes depending on which you mean, and choosing is already an interpretive act.
+Your count changes depending on which you mean, so always be clear about which one you're counting.
 
 ### Discussion questions
 - "The cat sat on the mat" has six tokens but five types. Which count would you use to compare two texts, and why?
 - Treating "sat" and "sit" as one word is convenient but discards information. When might that distort your results?
 - In a language you know, where are the boundaries of a "word" genuinely unclear?
-- Who decides what counts as a unit—the language, the writing system, or the analyst?
 
 ## The two oldest tools
 

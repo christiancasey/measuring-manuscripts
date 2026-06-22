@@ -1,6 +1,6 @@
 # Day 2 · Lining Up the Witnesses
 
-A text that survives in several copies is never copied perfectly. The differences between copies are evidence. Today you'll line the copies up to see them clearly, then make the judgments the computer can't.
+A text that survives in several copies is never copied perfectly. The differences between copies are evidence. Today you'll line the copies up to see where they agree and differ, and work out which readings are Chaucer's.
 
 ```{admonition} Companion notebook—*Lining up the witnesses*
 :class: tip
@@ -37,11 +37,11 @@ Read the witness passages and underline two places where the copies disagree. Pr
 
 Open the notebook and run the cells to produce the alignment table and the variant graph. Find a column where the witnesses split and record the variants. Then build the tree and see which witnesses group together.
 
-## Interpret
+## Read the result
 
 - Which two witnesses agree most often? Did that match your prediction?
 - Choose one variant. Which reading would you adopt as editor, and why?
-- What does the alignment not tell you, and where do you still need a human?
+- The alignment shows where the copies differ. What doesn't it tell you about which reading is right?
 
 ```{admonition} Project check-in
 :class: note
