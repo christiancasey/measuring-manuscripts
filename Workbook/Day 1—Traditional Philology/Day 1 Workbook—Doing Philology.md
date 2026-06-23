@@ -182,11 +182,7 @@ So a poem on a page turns out to carry its own soundtrack, if you know how to re
 - Can you think of a question about a text that would take a person a lifetime but a computer an afternoon?
 ### What a computer adds
 
-A computer doesn't read a text the way you do, and it isn't meant to. What it offers is scale and precision. Given one word, it can find every place that word appears across thousands of texts. Given one sign, it can rank the most similar shapes out of thousands of manuscripts. None of this replaces close reading. It answers questions close reading can't approach on its own. In the best cases, the answers that computers provide lead to new and more interesting questions, and these send us back to the original texts, armed with new facts, to investigate further. 
-## Seeing it in action
-### Some examples of real projects
-- [The Zodiac Glossary](https://zodiac-edit.fly.dev/)
-- [Isut](https://isut.uliege.be/)
+A computer doesn't read a text the way you do, and it isn't meant to. What it offers is scale and precision. Given one word, it can find every place that word appears across thousands of texts. Given one sign, it can rank the most similar shapes out of thousands of manuscripts. None of this replaces close reading. It answers questions close reading can't approach on its own. In the best cases, the answers that computers provide lead to new and more interesting questions, and these send us back to the original texts, armed with new facts, to investigate further.
 ### Trying it out in Colab
 
 Now we'll move to the Notebook to see some basic computational techniques in action. 
