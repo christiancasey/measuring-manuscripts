@@ -1,12 +1,14 @@
 # Day 6 · Putting a Number on It
 
-NOTE: You absolutely must watch this video before this class: [Reinventing Entropy | Compression is Intelligence Part 1](https://youtu.be/l6DKRf-fAAM). You will be quizzed on its contents to verify that you've watched it. None of this makes sense without this information (pun intended). 
+```{important}
+You absolutely must watch this video before this class: [Reinventing Entropy | Compression is Intelligence Part 1](https://youtu.be/l6DKRf-fAAM). You will be quizzed on its contents to verify that you've watched it. None of this makes sense without this information (pun intended).
+```
 
 ```{admonition} Companion notebook: *Putting a number on a text*
 :class: tip
 Open **Day 6 Notebook—Putting a number on a text.ipynb** in Colab and run along as you read.
 
-🔧 *TO BUILD:* paste the Colab launch link once the book is on GitHub.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/christiancasey/measuring-manuscripts/blob/main/Workbook/Day%206%E2%80%94Measuring%20Script%20and%20Language/Day%206%20Notebook%E2%80%94Putting%20a%20number%20on%20a%20text.ipynb)
 ```
 
 ## Surprise, measured

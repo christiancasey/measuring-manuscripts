@@ -2,13 +2,15 @@
 
 You can't see fifty dimensions at once. Today you compress them to two so the structure becomes visible, then check whether the compression has misled you.
 
-NOTE: Last week a recommended a video a background for the day's discussion. At that time, it wasn't essential. Today it will be. If you don't yet understand PCA, please watch [this video](https://www.youtube.com/watch?v=_6UjscCJrYE).
+```{important}
+Last week I recommended a video as background for the day's discussion. At that time, it wasn't essential. Today it will be. If you don't yet understand PCA, please watch [this video](https://www.youtube.com/watch?v=_6UjscCJrYE).
+```
 
 ```{admonition} Companion notebook: *Seeing the pattern*
 :class: tip
 Open **Day 7 Notebook—Seeing the pattern.ipynb** in Colab and run along as you read.
 
-🔧 *TO BUILD:* paste the Colab launch link once the book is on GitHub.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/christiancasey/measuring-manuscripts/blob/main/Workbook/Day%207%E2%80%94Visualization/Day%207%20Notebook%E2%80%94Seeing%20the%20pattern.ipynb)
 ```
 
 ## Describing one thing with many numbers
@@ -179,6 +181,19 @@ Open the notebook:
 - Pick an outlier. Is it a real exception or a digitization error, and how would you check?
 
 The notebook also runs UMAP twice with different random seeds, so you can watch the gaps between clusters shift while the clusters themselves hold.
+
+## Working with real data
+
+The toy data had clean, known clusters so you could check the methods. Real material rarely looks so tidy. For a worked example on the genuine article, the notebook ends by reproducing a result from a study of *hieratic*, the cursive handwriting of ancient Egypt: [Tabin et al. (2023), *Collaborative Annotation and Computational Analysis of Hieratic*](https://raw.githubusercontent.com/christiancasey/measuring-manuscripts/refs/heads/main/Workbook/Day%207%E2%80%94Visualization/Tabin%20et%20al%20%282023%29%20Collaborative%20Annotation%20and%20Computational%20Analysis%20of%20Hieratic.pdf), Figure 7.
+
+A single hieratic sign was drawn many different ways. Take one sign, *G17* (the owl), as written in two Middle Egyptian texts, turn every drawn instance into a row of numbers, and run PCA to two dimensions, colored by text. The owls separate into a few recurring forms. Two of them appear in both texts, and one is found almost only in the *Shipwrecked Sailor*. The clustering and adjusted-Rand machinery from earlier then puts numbers on those forms.
+
+### Discussion questions
+
+- The plot shows one form of the owl almost only in the Shipwrecked Sailor. Before calling that a real scribal difference, what duller explanations would you rule out first?
+- PCA here runs on the raw pixels of each sign crop. What would change if you measured stroke features (height, width, curvature) instead, and when might that be the better choice?
+- A single sign gave a couple of hundred tokens. How would the picture change if you pooled several signs at once, or grouped the texts by period?
+- The figure separates forms you could also sort by eye. What is gained by doing it with PCA across two hundred tokens at once?
 
 ```{admonition} Project check-in
 :class: note

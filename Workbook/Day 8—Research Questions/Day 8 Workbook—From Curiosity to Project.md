@@ -6,7 +6,7 @@ A technique isn't a project. Today you turn an interest into a question you can 
 :class: tip
 Open **Day 8 Notebook—Your project, in skeleton.ipynb** in Colab and run along as you read.
 
-🔧 *TO BUILD:* paste the Colab launch link once the book is on GitHub.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/christiancasey/measuring-manuscripts/blob/main/Workbook/Day%208%E2%80%94Research%20Questions/Day%208%20Notebook%E2%80%94Your%20project%2C%20in%20skeleton.ipynb)
 ```
 
 ## From topic to question

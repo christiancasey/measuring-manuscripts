@@ -6,7 +6,7 @@ The last day. You finish, publish, present, and help assess each other's work, t
 :class: tip
 Open **Day 10 Notebook—Build space.ipynb** in Colab and run along as you read.
 
-🔧 *TO BUILD:* paste the Colab launch link once the book is on GitHub.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/christiancasey/measuring-manuscripts/blob/main/Workbook/Day%2010%E2%80%94Project%20Workshop%20and%20Publication/Day%2010%20Notebook%E2%80%94Build%20space.ipynb)
 ```
 
 ## Finishing, not polishing

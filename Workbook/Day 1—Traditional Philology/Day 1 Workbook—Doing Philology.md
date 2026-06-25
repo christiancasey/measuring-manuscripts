@@ -20,7 +20,7 @@ Middle English is the sweet spot for this. It is strange enough that reading it 
 :class: tip
 Open **Day 1 Notebook—A text three ways.ipynb** in Colab and run along as you read.
 
-🔧 *TO BUILD:* paste the Colab launch link once the book is on GitHub.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/christiancasey/measuring-manuscripts/blob/main/Workbook/Day%201%E2%80%94Traditional%20Philology/Day%201%20Notebook%E2%80%94A%20text%20three%20ways.ipynb)
 ```
 
 ## The text: the General Prologue
@@ -197,8 +197,9 @@ Now we'll move to the Notebook to see some basic computational techniques in act
 :class: tip
 Open **Day 1 Notebook—A text three ways.ipynb** and scroll to *Measuring: which words repeat?*.
 
-🔧 *TO BUILD:* paste the Colab launch link once the book is on GitHub.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/christiancasey/measuring-manuscripts/blob/main/Workbook/Day%201%E2%80%94Traditional%20Philology/Day%201%20Notebook%E2%80%94A%20text%20three%20ways.ipynb)
 ```
+
 ### Discussion questions
 - Of the demonstrations you saw, which one surprised you the most? Why?
 - Which demonstration would you most want to run on a text you care about?

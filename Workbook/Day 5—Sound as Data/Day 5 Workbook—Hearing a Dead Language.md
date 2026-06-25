@@ -6,7 +6,7 @@ No one has heard Chaucer's English spoken, and no one has heard Coptic spoken in
 :class: tip
 Open **Day 5 Notebook—Measuring vowels.ipynb** in Colab and run along as you read. You'll build a vowel from scratch, listen to it, then measure it back.
 
-🔧 *TO BUILD:* paste the Colab launch link once the book is on GitHub.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/christiancasey/measuring-manuscripts/blob/main/Workbook/Day%205%E2%80%94Sound%20as%20Data/Day%205%20Notebook%E2%80%94Measuring%20vowels.ipynb)
 ```
 
 ## How do we know Chaucer rhymed?
@@ -79,8 +79,13 @@ A consonant obstructs the airstream somewhere in the tract. We describe each one
 
 Almost every sound here is made on air pushed out of the lungs. These are *pulmonic* sounds, and they are nearly all you need for English or Coptic or Arabic. A few languages also use *non-pulmonic* sounds made with other airstreams (the clicks of southern African languages, for instance), but we can set those aside.
 
-![IPA Chart](https://www.internationalphoneticassociation.org/sites/default/files/IPA2005_3000px.png)
-CAPTION: The IPA Chart from the [International Phonetic Association](https://www.internationalphoneticassociation.org/content/full-ipa-chart)
+```{figure} https://www.internationalphoneticassociation.org/sites/default/files/IPA2005_3000px.png
+:alt: The full International Phonetic Alphabet chart
+:name: ipa-chart
+
+The IPA chart, from the [International Phonetic Association](https://www.internationalphoneticassociation.org/content/full-ipa-chart).
+```
+
 ### Discussion questions
 - Say "buzz" and "bus" with a finger on your throat. What is the one parameter that differs between *z* and *s*: place, manner, or voicing?
 - Pinch your nose and try to say *m*, *n*, and *ng*. Why do they fail, when *b*, *d*, and *g* do not?

@@ -6,7 +6,7 @@ Counting words sounds simple until you have to define a word. That definition sh
 :class: tip
 Open **Day 3 Notebook—Turning text into data.ipynb** in Colab and run along as you read.
 
-🔧 *TO BUILD:* paste the Colab launch link once the book is on GitHub.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/christiancasey/measuring-manuscripts/blob/main/Workbook/Day%203%E2%80%94Text%20as%20Data/Day%203%20Notebook%E2%80%94Turning%20text%20into%20data.ipynb)
 ```
 
 ## What is a word?

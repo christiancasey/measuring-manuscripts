@@ -6,7 +6,7 @@ A text that survives in several copies is never copied perfectly. The difference
 :class: tip
 Open **Day 2 Notebook—Lining up the witnesses.ipynb** in Colab and run along as you read.
 
-🔧 *TO BUILD:* paste the Colab launch link once the book is on GitHub.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/christiancasey/measuring-manuscripts/blob/main/Workbook/Day%202%E2%80%94Textual%20Criticism/Day%202%20Notebook%E2%80%94Lining%20up%20the%20witnesses.ipynb)
 ```
 
 ## What textual criticism is

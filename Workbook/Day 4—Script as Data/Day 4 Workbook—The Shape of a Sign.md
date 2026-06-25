@@ -1,6 +1,8 @@
 # Day 4 · The Shape of a Sign
 
-NOTE: The topic today includes principal components analysis (PCA). If you don't know what this is yet, you will benefit from watching [this video](https://www.youtube.com/watch?v=_6UjscCJrYE).
+```{note}
+The topic today includes principal components analysis (PCA). If you don't know what this is yet, you will benefit from watching [this video](https://www.youtube.com/watch?v=_6UjscCJrYE).
+```
 
 A letter is not one shape but a range of shapes. No two scribes draw it the same way. In fact, no writer every writes a letter the exact same way twice. Today you'll measure how close those shapes are to one another.
 
@@ -8,7 +10,7 @@ A letter is not one shape but a range of shapes. No two scribes draw it the same
 :class: tip
 Open **Day 4 Notebook—Measuring the shape of a sign.ipynb** in Colab and run along as you read.
 
-🔧 *TO BUILD:* paste the Colab launch link once the book is on GitHub.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/christiancasey/measuring-manuscripts/blob/main/Workbook/Day%204%E2%80%94Script%20as%20Data/Day%204%20Notebook%E2%80%94Measuring%20the%20shape%20of%20a%20sign.ipynb)
 ```
 
 ## What paleography is
@@ -24,8 +26,13 @@ A trained paleographer can look at a page and do several things at once, often w
 
 The catch is that this expertise is real but hard to scale and hard to make explicit. A paleographer who has read ten thousand pages carries that experience as trained intuition. They can be right and unable to fully spell out the rule they used, which makes the skill slow to teach and slow to apply across the thousands of manuscripts a large question would need. That gap, between a reliable judgment and a statable, repeatable procedure, is exactly the gap that measuring shapes tries to narrow.
 
-![The Evolution of Hieratic 𓅓 (G17)](Evolution_Hieratic.png)
-CAPTION: The Evolution of Hieratic 𓅓 (G17)
+```{figure} Evolution_Hieratic.png
+:alt: Hieratic forms of the owl sign G17 across periods
+:name: hieratic-g17
+
+The evolution of hieratic 𓅓 (G17).
+```
+
 ### Discussion questions
 
 - A paleographer dates a hand to "the second quarter of the fourteenth century" and is usually right. What kind of evidence is that judgment built on, and why is it hard to write down as a rule?
