@@ -2,6 +2,9 @@
 version: 1
 project:
   id: 3cd9f84e-d561-482d-9065-eecf74fdb589
+  # the .ipynb files are companion Colab notebooks, not book pages
+  exclude:
+    - '**/*.ipynb'
   # title:
   # description:
   # keywords: []
