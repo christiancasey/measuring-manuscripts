@@ -135,8 +135,15 @@ Each is a small trap, and the only sure defense is evidence. To know what *sely*
 
 ## Manuscript as data
 
-![Hengwrt Prologue](https://upload.wikimedia.org/wikipedia/commons/0/02/HengwrtChaucerOpening.jpg)
+```{figure} https://upload.wikimedia.org/wikipedia/commons/0/02/HengwrtChaucerOpening.jpg
+:alt: Hengwrt Prologue
+:name: hengwrt
+
+The Prologue from the Hengwrt Manuscript.
+```
+
 Take a stab at transcribing the text you see in this photo of the Hengwrt Manuscript. You can use the transcription to help you, partially, but note that they are not identical.
+
 ```
 Whan that Aprille with his shoures soote,
 The droghte of March hath perced to the roote,
