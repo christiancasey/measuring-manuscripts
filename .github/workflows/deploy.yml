@@ -1,0 +1,48 @@
+# Build the MyST workbook and deploy it to GitHub Pages on every push to main.
+# The MyST project lives in the Workbook/ subfolder, so the build step runs there.
+
+name: MyST GitHub Pages Deploy
+on:
+  push:
+    branches: [main]
+env:
+  # The site is served at christiancasey.github.io/measuring-manuscripts/, so the
+  # base path is the repository name. This is what makes the CSS and JS resolve.
+  BASE_URL: /${{ github.event.repository.name }}
+
+# Permissions the workflow needs to publish to Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one deployment at a time; don't cancel an in-progress production deploy.
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18.x
+      - name: Install MyST Markdown
+        run: npm install -g mystmd
+      - name: Build HTML Assets
+        working-directory: Workbook        # myst.yml lives here
+        run: myst build --html
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './Workbook/_build/html'   # build output, under the Workbook subfolder
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
