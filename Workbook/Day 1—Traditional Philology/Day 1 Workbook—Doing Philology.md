@@ -14,7 +14,7 @@ Today is all about philology in the broad sense: what it is, what it's for, why 
 - What can a text tell us that its author never meant to record?
 - What is the difference between philology and linguistics?
 
-Middle English is the sweet spot for this. It is strange enough that reading it is real work, but close enough to modern English that you can do that work yourself instead of taking a translator's word for it, but without needing years of language courses. We will spend today on the opening of Chaucer's *Canterbury Tales*, for two reasons: one short passage runs through nearly everything traditional philology does, and the poem survives in some eighty handwritten copies—exactly the material the next nine days need.
+Middle English is the sweet spot for this. It is strange enough that reading it is real work, but close enough to modern English that you can do that work yourself instead of taking a translator's word for it, but without needing years of language courses. We will spend today on the opening of Chaucer's *Canterbury Tales*, for two reasons: one short passage runs through nearly everything traditional philology does, and the poem survives in some eighty handwritten copies, exactly the material the next nine days need.
 
 ```{admonition} Companion notebook—*A text three ways*
 :class: tip
@@ -82,15 +82,15 @@ You just read a six-hundred-year-old text and understood most of it. That is the
 
 Textual criticism begins with a basic fact: we rarely have the original. With the *Canterbury Tales* the problem is almost the opposite of a lost text, and no easier.
 
-- **No final version.** Chaucer died with the *Tales* unfinished and never fixed their order. There is no last copy in his own hand. Arguably no single "original" ever existed.
-- **Eighty-odd witnesses.** The poem survives in around eighty manuscripts, no two identical. The two earliest and best, **Hengwrt** and **Ellesmere**, were written by the same professional scribe, and even they disagree and arrange the tales differently.
-- **A named scribe.** That scribe may have been one **Adam Pinkhurst**, identified in 2004 by Linne Mooney (an identification some scholars now dispute). If it holds, he is the same Adam whom Chaucer scolded in a short poem for careless copying:
+- *No final version*. Chaucer died with the *Tales* unfinished and never fixed their order. There is no last copy in his own hand. Arguably no single "original" ever existed.
+- *Eighty-odd witnesses*. The poem survives in around eighty manuscripts, no two identical. The two earliest and best, *Hengwrt* and *Ellesmere*, were written by the same professional scribe, and even they disagree and arrange the tales differently.
+- *A named scribe*. That scribe may have been one *Adam Pinkhurst*, identified in 2004 by Linne Mooney (an identification some scholars now dispute). If it holds, he is the same Adam whom Chaucer scolded in a short poem for careless copying:
 
   > Adam scriveyn, if ever it thee bifalle / Boece or Troylus for to wryten newe, / Under thy long lokkes thou most have the scalle, / But after my makyng thow wryte more trewe...
 
   > Roughly: *Adam, if you ever copy out my Boethius or Troilus again, may you get scabs under those long locks of yours unless you write it more faithfully.*
 
-Each copy is a **witness**: it testifies, imperfectly, to what Chaucer wrote. When witnesses disagree—and across eighty copies they disagree constantly—the editor has to weigh them and decide. Doing that by hand across eighty manuscripts is one of the walls this course is built to break through.
+Each copy is a *witness*: it testifies, imperfectly, to what Chaucer wrote. When witnesses disagree (and across eighty copies they disagree constantly), the editor has to weigh them and decide. Doing that by hand across eighty manuscripts is one of the walls this course is built to break through.
 
 ### Discussion questions
 - If there was never a single "original" *Canterbury Tales*, what is an editor even trying to reconstruct?
@@ -104,26 +104,32 @@ Four scribes each copied the same couplet from the General Prologue. No two agre
 
 |               | line A ends…                    | line B ends…          |
 | ------------- | ------------------------------- | --------------------- |
-| **Witness 1** | …to seken straunge **contrees** | …in sondry **londes** |
-| **Witness 2** | …to seken straunge **strondes** | …in sondry **londes** |
-| **Witness 3** | …to seken straunge **londes**   | …in sondry **londes** |
-| **Witness 4** | …to seken straunge **contrees** | …in sondry **londes** |
+| **Witness 1** | …to seken straunge *contrees* | …in sondry *londes* |
+| **Witness 2** | …to seken straunge *strondes* | …in sondry *londes* |
+| **Witness 3** | …to seken straunge *londes*   | …in sondry *londes* |
+| **Witness 4** | …to seken straunge *contrees* | …in sondry *londes* |
 
 What did the line say? Write down your best guess and how you would defend it.
 
-With four copies it is hard; with eighty it is hopeless by hand. Tomorrow we line them all up by computer, recover the reading together, and see whether you were right.
+With four copies it is hard. With eighty it is hopeless by hand. Tomorrow we line them all up by computer, recover the reading together, and see whether you were right.
 
 ## The words that fool you
 
 Middle English is full of words that look like ones you know and mean something else. Read these, write down what you think each bold word means, then check the gloss.
 
-- *Of which **vertú** engendred is the flour*
-- *So priketh hem Natúre in hir **corages***
-- a man Chaucer calls **nyce**
-- a **sely** widow
-- a **lewed** man
+- *Of which *vertú* engendred is the flour*
+- *So priketh hem Natúre in hir *corages**
+- a man Chaucer calls *nyce*
+- a *sely* widow
+- a *lewed* man
 
-Glosses: **vertú** = power, the force that makes plants grow (not *virtue*); **corages** = hearts, spirits, desires (not *courage*); **nyce** = foolish, ignorant (not *nice*); **sely** = innocent, blessed, or hapless, the ancestor of *silly*; **lewed** = unlearned, lay, as opposed to clergy (not *lewd*).
+Glosses:
+
+- *vertú* = power, the force that makes plants grow (not *virtue*)
+- *corages* = hearts, spirits, desires (not *courage*)
+- *nyce* = foolish, ignorant (not *nice*)
+- *sely* = innocent, blessed, or hapless, the ancestor of *silly*
+- *lewed* = unlearned, lay, as opposed to clergy (not *lewd*)
 
 Each is a small trap, and the only sure defense is evidence. To know what *sely* meant to Chaucer, you would want every place he uses it, lined up side by side. *If only* we could pull all of those up at once.
 
@@ -160,9 +166,9 @@ That hem hath holpen whan that they were seeke.
 
 One last obstacle, and a strange one: we can partly recover how Chaucer's English *sounded*, centuries before any recording, from the text alone. Two clues do it.
 
-First, **meter**. Chaucer's line is a ten-beat rhythm, and the opening only keeps that rhythm if you pronounce things we have since dropped—sounding the final *-e* in *soote* (SOH-te) and giving *Aprille* its full three syllables. The meter quietly records a pronunciation we no longer use.
+First, *meter*. Chaucer's line is a ten-beat rhythm, and the opening only keeps that rhythm if you pronounce things we have since dropped: sounding the final *-e* in *soote* (SOH-te) and giving *Aprille* its full three syllables. The meter quietly records a pronunciation we no longer use.
 
-Second, **rhyme**. Some of Chaucer's rhymes no longer rhyme for us, because the long vowels of English shifted afterward (the change called the [Great Vowel Shift](https://en.wikipedia.org/wiki/Great_Vowel_Shift)). Where a rhyme has broken, it tells us the two words once sounded alike, and roughly how.
+Second, *rhyme*. Some of Chaucer's rhymes no longer rhyme for us, because the long vowels of English shifted afterward (the change called the [Great Vowel Shift](https://en.wikipedia.org/wiki/Great_Vowel_Shift)). Where a rhyme has broken, it tells us the two words once sounded alike, and roughly how.
 
 So a poem on a page turns out to carry its own soundtrack, if you know how to read it.
 
@@ -173,7 +179,7 @@ So a poem on a page turns out to carry its own soundtrack, if you know how to re
 
 ## Computational Philology
 
-*Computational philology* refers to any attempt to use computers to aid in these tasks. Broadly defined, any philological exercise undertaken with a computer—such as editing a text transcription in Microsoft Word—might be called "computational philology", but in practice the term refers to quantitative studies of texts, often done on a scale that no human could achieve in a reasonable timeframe. If it can't be done by hand but can be done with a computer, it's computational philology.
+*Computational philology* refers to any attempt to use computers to aid in these tasks. Broadly defined, any philological exercise undertaken with a computer (such as editing a text transcription in Microsoft Word) might be called "computational philology", but in practice the term refers to quantitative studies of texts, often done on a scale that no human could achieve in a reasonable timeframe. If it can't be done by hand but can be done with a computer, it's computational philology.
 ### Discussion questions
 - What are some examples of tasks that computers can do easily but human scholars cannot?
 - What might a philologist's wishlist look like? Which facts about a text might they want to have at their fingertips to aid in their studies?
@@ -201,11 +207,11 @@ Open **Day 1 Notebook—A text three ways.ipynb** and scroll to *Measuring: whic
 
 The course ends with one project of your own: a single technique, built and published online over the two weeks. Each day closes with a short check-in, so the project takes shape as you go rather than all at once at the end. Some options you might consider (but are not limited to) are:
 
-- a **concordance**—every occurrence of a word, shown in context
-- a **variant alignment**—several copies of one text, lined up
-- a **morphological tagging** demonstration
-- a **paleographic clustering** of sign shapes
-- a **diachronic frequency** comparison across time
+- a *concordance*: every occurrence of a word, shown in context
+- a *variant alignment*: several copies of one text, lined up
+- a *morphological tagging* demonstration
+- a *paleographic clustering* of sign shapes
+- a *diachronic frequency* comparison across time
 
 You don't need to choose yet. It's enough to know which one interests you, and what text, script, or language you'd want to work on.
 ### Discussion questions

@@ -11,47 +11,47 @@ Open **Day 2 Notebook—Lining up the witnesses.ipynb** in Colab and run along a
 
 ## What textual criticism is
 
-Before printing, every copy of a text was written out by hand. A scribe sat with one copy in front of him—the **exemplar**—and produced another. The next scribe copied that one, and so on down the generations. No human hand reproduces a few thousand words without slipping, and each slip is itself copied forward into everything that descends from it. After a few hundred years of this, no two surviving copies of a long text agree throughout. The *Canterbury Tales* survives in around eighty manuscripts, and not one pair of them is identical.
+Before printing, every copy of a text was written out by hand. A scribe sat with one copy in front of him, the *exemplar*, and produced another. The next scribe copied that one, and so on down the generations. No human hand reproduces a few thousand words without slipping, and each slip is itself copied forward into everything that descends from it. After a few hundred years of this, no two surviving copies of a long text agree throughout. The *Canterbury Tales* survives in around eighty manuscripts, and not one pair of them is identical.
 
-Textual criticism is the discipline that works backward through that process. Its first goal is to recover what the author actually wrote—or, where there was never a single original, to reconstruct the earliest recoverable form of the text. Its second goal is to understand the **tradition** itself: how the copies are related, which descends from which, where and how the text changed as it was passed along. The two goals support each other. You reconstruct the original by understanding how the copies drifted from it, and you understand the drift by seeing what the copies did to the original.
+Textual criticism is the discipline that works backward through that process. Its first goal is to recover what the author actually wrote, or, where there was never a single original, to reconstruct the earliest recoverable form of the text. Its second goal is to understand the *tradition* itself: how the copies are related, which descends from which, where and how the text changed as it was passed along. The two goals support each other. You reconstruct the original by understanding how the copies drifted from it, and you understand the drift by seeing what the copies did to the original.
 
-The raw material is disagreement. Each surviving copy is a **witness**: it testifies, imperfectly, to what the author wrote. A place where the witnesses disagree is a **variant**. Lay the copies out in a table—one column per position in the text, one row per witness—and the variants are easy to find. CollateX produces that table for you. The rest of the day is about reading it.
+The raw material is disagreement. Each surviving copy is a *witness*: it testifies, imperfectly, to what the author wrote. A place where the witnesses disagree is a *variant*. Lay the copies out in a table (one column per position in the text, one row per witness) and the variants are easy to find. CollateX produces that table for you. The rest of the day is about reading it.
 
 ### Discussion questions
 
 - Textual criticism has two goals: recover the original, and map the tradition. When might these pull in different directions?
 - With only one copy of a text, what can you not learn that several copies would tell you?
-- The *Canterbury Tales* has no single original—Chaucer died with it unfinished. What does an editor reconstruct when there was never one author's-hand copy to begin with?
+- The *Canterbury Tales* has no single original. Chaucer died with it unfinished. What does an editor reconstruct when there was never one author's-hand copy to begin with?
 - A printed book has thousands of identical copies. Why does textual criticism have so little to say about most modern books, and so much to say about manuscripts?
 
 ## The vocabulary of variants
 
 Once you have witnesses lined up, you need names for the ways they differ. There are only four basic kinds of change a scribe can make at a given spot.
 
-- **Substitution.** One word or phrase replaces another. Yesterday's puzzle is a substitution: where Chaucer wrote *strondes*, copies show *contrees*, *costes*, *shores*, *londes*.
-- **Omission.** A word, line, or whole passage drops out. The scribe's eye skips it, or his exemplar already lacked it.
-- **Addition.** Something not in the exemplar appears—a word filled in to smooth the sense, a gloss that wandered in from the margin, a pious phrase a scribe added by habit.
-- **Transposition.** The same words appear in a different order. *the holy blisful martir* becomes *the blisful holy martir*.
+- *Substitution*. One word or phrase replaces another. Yesterday's puzzle is a substitution: where Chaucer wrote *strondes*, copies show *contrees*, *costes*, *shores*, *londes*.
+- *Omission*. A word, line, or whole passage drops out. The scribe's eye skips it, or his exemplar already lacked it.
+- *Addition*. Something not in the exemplar appears: a word filled in to smooth the sense, a gloss that wandered in from the margin, a pious phrase a scribe added by habit.
+- *Transposition*. The same words appear in a different order. *the holy blisful martir* becomes *the blisful holy martir*.
 
-Cutting across these four is a more important distinction. A **substantive** variant changes the sense or the wording: *strondes* versus *contrees* is substantive. An **accidental** variant changes only the spelling, punctuation, or word-division without touching the sense: *knyght* versus *knight*, *worthi* versus *worthy*. Middle English had no fixed spelling, so accidentals are everywhere, and most of them tell you nothing about what the author wrote. They can still be useful—a scribe's spelling habits help locate his dialect—but when you are trying to recover the text, you weigh the substantives and set the accidentals aside. In the notebook, turning on near-matching is exactly this move: it tells CollateX to treat *worthi* and *worthy* as the same word so the genuine variants stand out.
+Cutting across these four is a more important distinction. A *substantive* variant changes the sense or the wording: *strondes* versus *contrees* is substantive. An *accidental* variant changes only the spelling, punctuation, or word-division without touching the sense: *knyght* versus *knight*, *worthi* versus *worthy*. Middle English had no fixed spelling, so accidentals are everywhere, and most of them tell you nothing about what the author wrote. They can still be useful (a scribe's spelling habits help locate his dialect), but when you are trying to recover the text, you weigh the substantives and set the accidentals aside. In the notebook, turning on near-matching is exactly this move: it tells CollateX to treat *worthi* and *worthy* as the same word so the genuine variants stand out.
 
 ### Discussion questions
 
-- Classify each of these: (a) *seke* for *seeke*; (b) a missing line; (c) *fox* changed to *hound*; (d) *holy blisful* swapped to *blisful holy*.
+- Classify each of these: (a) *seke* for *seeke*, (b) a missing line, (c) *fox* changed to *hound*, (d) *holy blisful* swapped to *blisful holy*.
 - Why are accidental variants nearly worthless for recovering the author's text but still useful for placing a scribe?
 - An addition and a substitution can look alike in a collation table. How would you tell, for a given column, whether a witness added a word or replaced one?
 
 ## How scribal errors arise
 
-Variants are not random noise. Scribes make a small number of recognizable mistakes, over and over, for reasons rooted in how copying actually works—reading a few words, holding them in mind, writing them down, looking back to find the place. Knowing the catalogue lets you spot which reading is the error and which is what the scribe was copying *from*.
+Variants are not random noise. Scribes make a small number of recognizable mistakes, over and over, for reasons rooted in how copying actually works: reading a few words, holding them in mind, writing them down, looking back to find the place. Knowing the catalogue lets you spot which reading is the error and which is what the scribe was copying *from*.
 
-- **Eye-skip (parablepsis).** The scribe's eye loses its place and jumps. This is the general category; the next two are its common forms.
-- **Homoeoteleuton.** When two nearby words or lines end the same way, the eye returns from the writing-hand to the wrong one and skips the text in between. Yesterday's *strondes / londes* puzzle is exactly this trap sprung in reverse: the line endings *-ondes* look alike, and one scribe wrote *londes* in the upper line by pulling it down from the lower. Similar endings cause whole lines to vanish, too: if two lines both end in *seeke*, a scribe can copy the first, glance back, land on the second *seeke*, and continue—dropping everything between.
-- **Haplography.** A repeated letter, syllable, or word gets written once instead of twice. *that that* becomes *that*.
-- **Dittography.** The opposite slip: something written once gets copied twice. *the the martir*.
-- **Misreading similar letterforms.** In the script of the period, letters like *c* and *t*, *u* and *n*, long-*s* and *f* are easy to confuse. A scribe reading a worn or hasty exemplar guesses, and a plausible wrong word results. Many substantive variants start as a single misread letter.
-- **Dialect "correction."** A scribe rewrites the spelling, and sometimes the words, toward his own dialect, the way a modern typist might quietly change *colour* to *color*. He isn't trying to alter the text; he's normalizing it. The fingerprints this leaves are how you place a scribe geographically.
-- **Contamination.** A scribe consults more than one exemplar—copying mostly from one but correcting against another, or switching partway through. Contamination is the great spoiler of textual criticism, because it lets a reading jump sideways between branches that are otherwise unrelated.
+- *Eye-skip (parablepsis)*. The scribe's eye loses its place and jumps. This is the general category. The next two are its common forms.
+- *Homoeoteleuton*. When two nearby words or lines end the same way, the eye returns from the writing-hand to the wrong one and skips the text in between. Yesterday's *strondes / londes* puzzle is exactly this trap sprung in reverse: the line endings *-ondes* look alike, and one scribe wrote *londes* in the upper line by pulling it down from the lower. Similar endings cause whole lines to vanish, too: if two lines both end in *seeke*, a scribe can copy the first, glance back, land on the second *seeke*, and continue, dropping everything between.
+- *Haplography*. A repeated letter, syllable, or word gets written once instead of twice. *that that* becomes *that*.
+- *Dittography*. The opposite slip: something written once gets copied twice. *the the martir*.
+- *Misreading similar letterforms*. In the script of the period, letters like *c* and *t*, *u* and *n*, long-*s* and *f* are easy to confuse. A scribe reading a worn or hasty exemplar guesses, and a plausible wrong word results. Many substantive variants start as a single misread letter.
+- *Dialect "correction."* A scribe rewrites the spelling, and sometimes the words, toward his own dialect, the way a modern typist might quietly change *colour* to *color*. He isn't trying to alter the text. He's normalizing it. The fingerprints this leaves are how you place a scribe geographically.
+- *Contamination*. A scribe consults more than one exemplar: copying mostly from one but correcting against another, or switching partway through. Contamination is the great spoiler of textual criticism, because it lets a reading jump sideways between branches that are otherwise unrelated.
 
 Most of these are honest mistakes, not interventions. A scribe trying hard to copy faithfully still skips, still misreads, still normalizes by reflex. That's why the same error type recurs across centuries and languages: it comes from the mechanics of the task, not from any one scribe's carelessness.
 
@@ -66,14 +66,14 @@ Most of these are honest mistakes, not interventions. A scribe trying hard to co
 
 Knowing how errors arise tells you what *kinds* of variants to expect. The next question is how to choose between them. Editors reason in two complementary ways: from the relationships among the copies, and from the character of the readings themselves.
 
-The first way is **recensio**: reconstructing the family tree of the manuscripts so you can see which readings are early and which are late. The crucial principle is that you build the tree from **shared errors, not shared correct readings**. Two copies that both read *strondes* might agree simply because *strondes* is what the author wrote—every faithful copy will have it, so it groups nothing. But two copies that share the *same distinctive mistake* almost certainly inherited it from a common ancestor, because the same specific error is unlikely to happen twice independently. Shared errors are the threads that tie the tree together. Trace them and you arrive at the **archetype**: the lost ancestor from which all surviving copies descend, the earliest point the evidence can reach. The archetype is not the author's original—it may already contain errors—but it is as far back as the witnesses let you go.
+The first way is *recensio*: reconstructing the family tree of the manuscripts so you can see which readings are early and which are late. The crucial principle is that you build the tree from **shared errors, not shared correct readings**. Two copies that both read *strondes* might agree simply because *strondes* is what the author wrote. Every faithful copy will have it, so it groups nothing. But two copies that share the *same distinctive mistake* almost certainly inherited it from a common ancestor, because the same specific error is unlikely to happen twice independently. Shared errors are the threads that tie the tree together. Trace them and you arrive at the *archetype*: the lost ancestor from which all surviving copies descend, the earliest point the evidence can reach. The archetype is not the author's original (it may already contain errors), but it is as far back as the witnesses let you go.
 
-This is why **the majority is not authority**. A reading can be common because it spread—one early error copied into dozens of descendants outnumbers the true reading preserved in a single conservative copy. The notebook's vote makes this concrete: count the four witnesses and *contrees* wins two to one, yet *contrees* cannot be right, because it doesn't rhyme with *londes*. The lone witness with *strondes* outweighs the majority. Counting copies measures how widely a reading spread, not whether it's original.
+This is why **the majority is not authority**. A reading can be common because it spread: one early error copied into dozens of descendants outnumbers the true reading preserved in a single conservative copy. The notebook's vote makes this concrete: count the four witnesses and *contrees* wins two to one, yet *contrees* cannot be right, because it doesn't rhyme with *londes*. The lone witness with *strondes* outweighs the majority. Counting copies measures how widely a reading spread, not whether it's original.
 
 The second way reasons from the readings themselves, using rules of thumb about which direction change tends to run.
 
-- **Lectio difficilior potior**—the harder reading is the stronger. Scribes simplify: they swap a rare word for a common one, smooth a rough construction, replace the unexpected with the expected. So when two readings are otherwise balanced, the more difficult one is likelier original, because it's easier to explain how it became the easy reading than the reverse. *strondes* is the rare word; *contrees* and *londes* are the ordinary ones a scribe would drift toward.
-- **Lectio brevior**—the shorter reading is often preferable. Scribes tend to add—a clarifying word, a filled-out phrase—more readily than they cut. A shorter reading is therefore frequently the earlier one. (This is a tendency, not a law; omission by eye-skip cuts the other way.)
+- *Lectio difficilior potior*: the harder reading is the stronger. Scribes simplify: they swap a rare word for a common one, smooth a rough construction, replace the unexpected with the expected. So when two readings are otherwise balanced, the more difficult one is likelier original, because it's easier to explain how it became the easy reading than the reverse. *strondes* is the rare word, while *contrees* and *londes* are the ordinary ones a scribe would drift toward.
+- *Lectio brevior*: the shorter reading is often preferable. Scribes tend to add (a clarifying word, a filled-out phrase) more readily than they cut. A shorter reading is therefore frequently the earlier one. (This is a tendency, not a law. Omission by eye-skip cuts the other way.)
 
 Both rules ask the same underlying question: which reading better explains the existence of the others? You adopt the reading from which you can most plausibly derive the rest by known scribal habits.
 
@@ -86,25 +86,25 @@ Both rules ask the same underlying question: which reading better explains the e
 
 ## Stemmatics: the family tree of copies
 
-Putting recensio on a systematic footing is the **stemmatic** or **Lachmannian** method, named for the nineteenth-century philologist Karl Lachmann. The idea is to draw the **stemma**—the genealogical tree of the manuscripts—and then let the tree decide variants mechanically wherever it can.
+Putting recensio on a systematic footing is the *stemmatic* or *Lachmannian* method, named for the nineteenth-century philologist Karl Lachmann. The idea is to draw the *stemma*, the genealogical tree of the manuscripts, and then let the tree decide variants mechanically wherever it can.
 
 The reasoning is the one you already have, made explicit. Collect the shared errors. Each distinctive error that several copies share marks them as a group descending from a common ancestor that first made that mistake. A mini-example:
 
 - Witness A reads *seken*.
-- Witnesses B and C both read *seke*—the same dropped syllable, a distinctive shared slip.
-- The simplest explanation is that B and C inherited *seke* from a common ancestor that already had the error; A descends from a different line that kept *seken*.
+- Witnesses B and C both read *seke*: the same dropped syllable, a distinctive shared slip.
+- The simplest explanation is that B and C inherited *seke* from a common ancestor that already had the error. A descends from a different line that kept *seken*.
 
 So B and C share an ancestor that A does not. Find enough shared errors and the groupings stack into a tree. Once the tree stands, many variants resolve on their own: where two branches descend independently from the archetype and they agree, that agreement reaches back to the archetype, and a third branch that disagrees is the outlier. You reconstruct the archetype reading by reading the tree, branch against branch, instead of counting copies.
 
-Texts mutate like DNA, and that's not just an analogy—it's why the method transfers. Copying introduces change: a slip, a correction, a dropped word. This is close enough to biological mutation that the same tree-building tools carry over. Measure how different each pair of witnesses is, and you can build a tree that groups the most similar copies—a first hypothesis about which copy descends from which. The notebook does exactly this with a distance measure and a dendrogram.
+Texts mutate like DNA, and that's not just an analogy. It's why the method transfers. Copying introduces change: a slip, a correction, a dropped word. This is close enough to biological mutation that the same tree-building tools carry over. Measure how different each pair of witnesses is, and you can build a tree that groups the most similar copies: a first hypothesis about which copy descends from which. The notebook does exactly this with a distance measure and a dendrogram.
 
 It stays a hypothesis, and the method has real limits.
 
-- **Two scribes can make the same easy error independently.** A common, obvious slip—dropping a final *-e*, simplifying a rare word—can crop up in two unrelated copies by chance, and the tree can't distinguish that from shared descent. Only *distinctive* shared errors are safe evidence; trivial ones mislead.
+- **Two scribes can make the same easy error independently.** A common, obvious slip (dropping a final *-e*, simplifying a rare word) can crop up in two unrelated copies by chance, and the tree can't distinguish that from shared descent. Only *distinctive* shared errors are safe evidence. Trivial ones mislead.
 - **Contamination breaks the tree.** If a scribe copied from two exemplars, his copy belongs to two branches at once, and no single tree fits. Readings leak across branches that should be independent.
 - **Lost witnesses leave gaps.** We have what survived, not what existed. Whole branches are gone, and the archetype we reconstruct may sit far below the author's original, with the intervening copies all lost.
 
-A clean stemma is the ideal case. Real traditions—the *Canterbury Tales* among them—are contaminated, full of gaps, and resist a single tidy tree. That doesn't make the method useless; it makes the tree a hypothesis to test against everything else you know, which is where the rest of the course comes in.
+A clean stemma is the ideal case. Real traditions (the *Canterbury Tales* among them) are contaminated, full of gaps, and resist a single tidy tree. That doesn't make the method useless. It makes the tree a hypothesis to test against everything else you know, which is where the rest of the course comes in.
 
 ### Discussion questions
 
@@ -115,7 +115,7 @@ A clean stemma is the ideal case. Real traditions—the *Canterbury Tales* among
 
 ## Before you run anything
 
-Read the witness passages and underline two places where the copies disagree. For each, name the variant type—substitution, omission, addition, transposition—and guess which reading is the scribal change and which is being copied *from*. Then predict which two witnesses are most alike before the computer answers.
+Read the witness passages and underline two places where the copies disagree. For each, name the variant type (substitution, omission, addition, transposition) and guess which reading is the scribal change and which is being copied *from*. Then predict which two witnesses are most alike before the computer answers.
 
 > 🔧 *TO BUILD:* 3–4 real witness passages of the same text (e.g. the *General Prologue* in Hengwrt, Ellesmere, and Caxton's print).
 
@@ -127,11 +127,11 @@ Open the notebook and run the cells to produce the alignment table and the varia
 
 - Which two witnesses agree most often? Did that match your prediction?
 - Choose one variant. Which reading would you adopt as editor, and which scribal habit explains the others?
-- The vote picks *contrees* and loses; rhyme and the rarer-word rule recover *strondes* from a single copy. Which principle from today did each step use?
+- The vote picks *contrees* and loses. Rhyme and the rarer-word rule recover *strondes* from a single copy. Which principle from today did each step use?
 
 ### Discussion questions
 
-- In the line-23 example, Hengwrt reads *was* and Ellesmere reads *were*. Both are the earliest and most authoritative copies, and they disagree. Which would you print, and what would you appeal to—agreement with *compaignye*, agreement with *nyne and twenty*, the relative authority of the copy?
+- In the line-23 example, Hengwrt reads *was* and Ellesmere reads *were*. Both are the earliest and most authoritative copies, and they disagree. Which would you print, and what would you appeal to: agreement with *compaignye*, agreement with *nyne and twenty*, the relative authority of the copy?
 - The dendrogram groups the closest copies. Where it groups two witnesses, how would you check whether that's shared descent or just two scribes making the same easy error?
 - The *strondes* puzzle was built to come out clean. Line 23 doesn't. What makes a real variant harder to settle than the textbook one?
 

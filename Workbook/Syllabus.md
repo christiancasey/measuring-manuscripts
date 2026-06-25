@@ -31,7 +31,7 @@ Students who arrive with programming experience will be offered additional or au
 
 ### Datasets and Materials
 
-All datasets used in this project are publicly available online or will be provided to the students by the instructor.
+All datasets used in this project are publicly available online or I'll provide them to students.
 
 ### Technical Requirements
 
