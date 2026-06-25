@@ -1,1 +1,0 @@
-import{a}from"/measuring-manuscripts/build/_shared/chunk-GJ5C453A.js";import"/measuring-manuscripts/build/_shared/chunk-J3PKFMLQ.js";import"/measuring-manuscripts/build/_shared/chunk-OZE3FFNP.js";export default a();
