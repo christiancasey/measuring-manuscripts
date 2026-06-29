@@ -117,7 +117,35 @@ A clean stemma is the ideal case. Real traditions (the *Canterbury Tales* among 
 
 Read the witness passages and underline two places where the copies disagree. For each, name the variant type (substitution, omission, addition, transposition) and guess which reading is the scribal change and which is being copied *from*. Then predict which two witnesses are most alike before the computer answers.
 
-> 🔧 *TO BUILD:* 3–4 real witness passages of the same text (e.g. the *General Prologue* in Hengwrt, Ellesmere, and Caxton's print).
+The lines below are the opening of the *General Prologue* as four early scribes wrote it. The letter þ is just an old way of writing *th* (so *þe* is *the*).
+
+**Hengwrt (Hg)**
+
+> Whan that Aueryll wt his shoures soote \
+> The droghte of March hath perced to the roote \
+> And bathed euery veyne in swich lycour \
+> Of which vertu engendred is the flour
+
+**Ellesmere (El)**
+
+> WHan that Aprill with hise shoures soote \
+> The droghte of March hath perced to the roote \
+> And bathed euery veyne in swich licour \
+> Of which vertu engendred is the flour
+
+**Harley 7334 (Ha4)**
+
+> Whan that aprille with his schowres swoote \
+> The drought of Marche haþ perced to þe roote \
+> And bathud euery veyne in swich licour \
+> Of which vertue engendred is þe flour
+
+**Laud (La)**
+
+> WHan þat Aprill wyþe his schoures soote \
+> Þe drought of Marche haþe perced to þe roote \
+> And baþes euery veyne in suche lycoure \
+> Of whiche vertue engender is þe floure
 
 ## Run the collation
 

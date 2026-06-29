@@ -53,7 +53,7 @@ THEQUICKBROWNFOXJUMPSOVERTHELAZYDOG
 
 A modern reader of English can re-segment that, because they already know the words. A computer can't *a priori*, and neither can a reader who doesn't already know the language. This is not a minor inconvenience. In Egyptian deciding where one word ends and the next begins is a genuine scholarly problem. Egyptian is written without consistent word spacing. Coptic uses some spacing and punctuation, but compound forms, attached articles, and bound prepositions mean that what counts as a single "word" is an editorial decision made text by text.
 
-> 🔧 TO BUILD: insert a short Coptic or Egyptian passage showing two defensible ways to divide the same string into words.
+Even English carries a trace of the problem. Chaucer's scribes wrote *noot* for *ne woot* ("does not know") and *nyste* for *ne wiste* ("did not know"), fusing the negative particle onto the verb. Is *noot* one word or two? A modern edition prints it as one, but its grammar is two, and a frequency count that keeps *noot* whole quietly disagrees with one that splits it. A language written without consistent spacing, like Egyptian, meets this on every line rather than in a handful of contracted forms.
 
 So the lesson is concrete: the unit you choose changes every later number. A different tokenization gives you a different token count, a different type count, a different frequency list, a different set of hapax legomena. Whenever you compare two measurements, check that they were tokenized the same way first.
 
@@ -113,7 +113,7 @@ Words keep company. *Strong* goes with *coffee*, not *powerful coffee*. *Heavy* 
 
 A related tool is the *n-gram*: a run of *n* consecutive tokens. A *bigram* is a pair (*worthy man*, *for to*). A *trigram* is a triple (*he was a*). Counting the frequent bigrams and trigrams of a text gives you a first window on its phraseology: its set phrases, its formulae, its turns of speech. This is especially powerful for traditional and formulaic texts. Liturgy, legal documents, oral-derived poetry, and scribal colophons are full of fixed phrases, and the frequent n-grams pull those formulae straight out of the text without your having to know them in advance.
 
-> 🔧 TO BUILD: add a real example of a recurring formula from Coptic/Egyptian material that an n-gram count surfaces.
+The *General Prologue* is a clean test case. Run the n-gram counter on it and the top trigram is *he was a*, the formula that opens one pilgrim portrait after another ("He was a verray, parfit, gentil knyght"). The bigram *for to* before an infinitive recurs throughout as a fixed Middle English construction. Neither is a phrase you would think to search for in advance. The count pulls them out on its own, which is the whole use: it surfaces a text's habitual phrasing before you know to look for it.
 
 ### Discussion questions
 

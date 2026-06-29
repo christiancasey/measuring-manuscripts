@@ -16,16 +16,9 @@ Today is all about philology in the broad sense: what it is, what it's for, why 
 
 Middle English is the sweet spot for this. It is strange enough that reading it is real work, but close enough to modern English that you can do that work yourself instead of taking a translator's word for it, but without needing years of language courses. We will spend today on the opening of Chaucer's *Canterbury Tales*, for two reasons: one short passage runs through nearly everything traditional philology does, and the poem survives in some eighty handwritten copies, exactly the material the next nine days need.
 
-```{admonition} Companion notebook—*A text three ways*
-:class: tip
-Open **Day 1 Notebook—A text three ways.ipynb** in Colab and run along as you read.
+## The text: General Prologue
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/christiancasey/measuring-manuscripts/blob/main/Workbook/Day%201%E2%80%94Traditional%20Philology/Day%201%20Notebook%E2%80%94A%20text%20three%20ways.ipynb)
-```
-
-## The text: the General Prologue
-
-Chaucer wrote the *Canterbury Tales* in the 1390s and left them unfinished at his death in 1400. Here is the opening of the General Prologue in his Middle English, followed by a plain modern rendering. Read the Middle English first.
+Chaucer wrote the *Canterbury Tales* in the 1390s and left them unfinished at his death in 1400. Here is the opening of the General Prologue in his Middle English, followed by a plain modern rendering. Read them together and see what you can understand.
 
 ```
 Whan that Aprille with his shoures soote,

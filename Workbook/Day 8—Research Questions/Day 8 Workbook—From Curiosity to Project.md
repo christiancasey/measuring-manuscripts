@@ -52,7 +52,7 @@ Worked examples from this course's own toolkit:
 
 The same pattern shows up with hieratic. "Hieratic is messier than hieroglyphic" only becomes a research result once "messier" is fixed to a specific measure: say, the spread of shapes for one sign across a corpus. Until then it's an impression.
 
-> 🔧 TO BUILD: drop in a worked operationalization from the hieratic sign-variation work: the abstract claim, the chosen measure, and one number that came out of it.
+Worked all the way through on Chaucer: the claim is *the Hengwrt copy of the Tales is more conservative than Harley 7334*. On its own that is an impression. Operationalize *conservative* as a rate. Take the first two hundred lines of the *General Prologue*, align each manuscript against the editorial base text, and count the lines where it changes the wording, not just the spelling. Carefulness becomes departures per hundred lines, one number for each manuscript, and "more conservative" becomes a comparison you can run and lose. If the two numbers come back close, the impression was wrong, which is exactly what the measure is for.
 
 ### Discussion questions
 

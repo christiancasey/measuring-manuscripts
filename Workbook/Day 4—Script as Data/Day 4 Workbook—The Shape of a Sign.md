@@ -144,9 +144,9 @@ The *Isut Guesser* is one of those direct tools. You draw a sign and it returns 
 
 ## Explore Isut
 
-Open *Isut's Guesser*, draw a sign, and see what it returns. Then look through the sign analysis view and find a sign whose shape clearly varies across texts.
+Open [*Isut's Guesser*](https://isut.uliege.be/signs/guesser), draw a sign, and see what it returns. Then look through the sign analysis view and find a sign whose shape clearly varies across texts.
 
-> 🔧 *TO BUILD:* the Isut link for the class, and a small set of real sign crops for the notebook.
+For a worked version, the notebook's last section loads real drawings of *G17* (the owl) straight from the Isut data in the repository and shows the same sign in a dozen different hands. That is today's whole point: one sign, no two scribes drawing it alike.
 
 ### Discussion questions
 

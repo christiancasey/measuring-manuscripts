@@ -83,7 +83,7 @@ The second is *interpretability*. Because each PCA axis is a fixed combination o
 
 What PCA blurs: it only ever rotates and flattens. It cannot bend the cloud. If your groups are separated in a curved or tangled way rather than along straight directions, PCA may smear them together, and you will need a nonlinear method to pull them apart.
 
-> 🔧 *TO BUILD:* run PCA on this year's real sign-shape vectors from Day 4 and report which original measurements load most heavily on PC1 and PC2, so the axes can be named.
+> *Try it on real data.* The end of the notebook runs exactly this on the *G17* owls from the Isut data: PCA to two dimensions, colored by text. Because the features here are the raw pixels of each sign rather than named measurements, you read the axes by eye instead of by loading. Look at the owls sitting at the extreme ends of PC1 and PC2 (the notebook draws the actual glyph at each extreme) and try to name what changes as you move along each axis: overall size and ink, the openness of the loop, the slant of the body.
 
 ### Discussion questions
 
@@ -156,7 +156,7 @@ This closes the loop. The projection suggested three groups. K-means drew them. 
 
 Outliers deserve the same discipline. A point sitting alone is a candidate, not a verdict. Find it by distance (it is far from every cluster center), then go back to the source. A vowel marooned far from its vowel category might be a genuine rare pronunciation, or it might be a formant mismeasured because the recording was noisy. A sign off on its own might be a real variant form, or two strokes that the segmentation accidentally merged. The plot tells you where to look. Only the manuscript tells you which it is.
 
-> 🔧 *TO BUILD:* cluster this year's real Day 4 sign features with k-means and report the adjusted Rand index against the known hands, plus one outlier traced back to its source image.
+> *Try it on real data.* The notebook closes by doing this on the *G17* owls: k-means draws three forms on the PCA coordinates, and then you check whether those forms line up with the text each owl came from. One form turns up almost only in the *Shipwrecked Sailor*, which is the result to look for. There are no hand labels here, so the text of origin plays the role the known hands would. Then pick an owl sitting apart from its group, open its crop, and decide whether it is a genuine variant form or a segmentation slip where two strokes were merged.
 
 ### Discussion questions
 
@@ -199,3 +199,14 @@ A single hieratic sign was drawn many different ways. Take one sign, *G17* (the 
 :class: note
 What single image would make your finding clear at a glance?
 ```
+
+## Making results interactive
+
+Academic papers are limited in their ability to convey data with complex, multidimensional relationships. But websites can do things differently. For a recent paper, I decided to accompany the handful of printed figures with an interactive version, which allows readers to explore the full dataset in detail, something that would never be possible in print. 
+
+We'll take a look together at [Hieratic Sign Complexity over Time](https://writingthroughtime.github.io/hieratic-complexity-and-sign-names/) and discuss how this does something academic papers cannot.
+
+### Discussion questions
+
+- Where does your project create data that cannot be presented easily in a few 2D figures?
+- How might you leverage interactive web materials to expand what's possible?
