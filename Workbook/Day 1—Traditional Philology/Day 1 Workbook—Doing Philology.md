@@ -128,7 +128,7 @@ Each is a small trap, and the only sure defense is evidence. To know what *sely*
 
 ## Manuscript as data
 
-```{figure} https://upload.wikimedia.org/wikipedia/commons/0/02/HengwrtChaucerOpening.jpg
+```{figure} HengwrtChaucerOpening.jpg
 :alt: Hengwrt Prologue
 :name: hengwrt
 
@@ -176,6 +176,23 @@ So a poem on a page turns out to carry its own soundtrack, if you know how to re
 - If meter and rhyme preserve pronunciation, what can the written text never tell us about how Chaucer sounded?
 - A scribe who "corrects" Chaucer's spelling toward his own dialect leaves fingerprints. How might those help place him?
 - We have no recording of Chaucer, yet we claim to know roughly how he sounded. How much should we trust that?
+
+## The birth of linguistics, and a schism
+
+Philology is old. For most of its history it meant the careful study and repair of texts: the librarians of ancient Alexandria fixing the text of Homer, Renaissance humanists hunting down better manuscripts of Cicero, generations of scholars deciding what an author actually wrote. The love of words, applied to particular books.
+
+Then, around 1800, philology produced something new. Scholars comparing old languages noticed that the resemblances between them were not random. Chaucer's *fader* is English *father*, German *Vater*, Latin *pater*, Sanskrit *pitar*. Line enough of these up and a pattern appears: where Latin has a *p*, the Germanic languages reliably have an *f*. Rasmus Rask and then Jacob Grimm showed that such correspondences are regular, a systematic *sound law* rather than a heap of coincidences. (This is the same kind of evidence you met in *Hearing a lost pronunciation*: sound leaves tracks.) Suddenly the history of languages could be reconstructed almost the way a geologist reconstructs the past from rock, by law-like inference from present evidence.
+
+That success gave birth to *linguistics*, the study of language as a *system* of general rules. It also quietly changed the object of study. Linguistics increasingly took *spoken* language as the real thing and writing as a mere record of it. Ferdinand de Saussure said it plainly: speech is the language, and writing only its representation. There was a method behind the choice. Speech can be elicited, recorded, and measured, so a linguist can gather fresh quantitative data and even run an experiment, testing a hypothesis against new evidence. This is science-shaped work, and against a living signal you can probe at will, the fixed marks on a page looked like a poor second source.
+
+Philology kept working with writing, because for a dead language writing is all that survives. Its evidence is *static*: the texts that happen to have reached us, no more and no fewer. You cannot interview a Coptic scribe or run an experiment on Chaucer. You read closely, compare, and judge, which is humanities-shaped work, prizing the particular text over the general rule. As linguistics grew more confident and more quantitative, it came to treat the written record as secondary, even unreliable. That is what the *schism* really was: linguistics rejecting writing as the primary material for studying language, and leaving the texts to the philologists.
+
+This course stands on the seam, and *computational philology* is part of what closes the gap. It brings the quantitative habits of linguistics to the one thing linguistics set aside, the written text. You can count, measure, and compare across a whole tradition. You can even state a hypothesis and test it against the data, a kind of experiment run not on fresh speech but on the marks already on the page. The dispersion test in the Coptic vowel work and the clustering of sign shapes are exactly that. So writing becomes quantitative evidence again, and some philological questions turn into things you can be shown right or wrong about. What computation does not touch is the other half: what a reading *means*, whether a result *matters*, which question is worth asking at all. Those stay human judgments. The numbers give judgment more to work with. They do not replace it. Holding both halves at once, the measurable and the meaningful, is the whole point of the next two weeks.
+
+### Discussion questions
+- Grimm's Law treats sound change as regular and law-like. What is gained by treating language history as a science, and what might be lost?
+- Linguistics treats speech as primary and writing as a secondary record. For a language with no living speakers, like Coptic, does that distinction still make sense?
+- Computational philology lets you test a claim against written data. Name one question about a text that this could help settle, and one it could never settle on its own.
 
 ## Computational Philology
 

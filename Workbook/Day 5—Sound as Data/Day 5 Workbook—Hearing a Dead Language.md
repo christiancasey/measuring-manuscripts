@@ -86,6 +86,9 @@ Almost every sound here is made on air pushed out of the lungs. These are *pulmo
 The IPA chart, from the [International Phonetic Association](https://www.internationalphoneticassociation.org/content/full-ipa-chart).
 ```
 
+### The physicality of speech
+
+Let's look together at [what the speech organs are actually doing to produce these sounds](https://www.seeingspeech.ac.uk/ipa-charts/?chart=1).
 ### Discussion questions
 - Say "buzz" and "bus" with a finger on your throat. What is the one parameter that differs between *z* and *s*: place, manner, or voicing?
 - Pinch your nose and try to say *m*, *n*, and *ng*. Why do they fail, when *b*, *d*, and *g* do not?

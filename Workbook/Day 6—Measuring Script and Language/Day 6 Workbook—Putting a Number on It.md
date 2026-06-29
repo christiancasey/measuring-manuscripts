@@ -106,6 +106,12 @@ One more term you will meet: *perplexity*, which is just $2^H$. If entropy is in
 - Perplexity turns 2 bits into "4 effective choices." For your own writing system, would you expect more or fewer effective choices than English, and why?
 - If two scripts have the same plain entropy but different conditional entropy, what does the difference tell you?
 
+## Word length and information
+
+Entropy also explains a pattern you have already half-seen. Back on Day 1 we plotted word length against word frequency and got a messy cloud. The mess was the raw frequency axis. Measure instead each word's *information*, its surprisal written -log2(p), which is exactly the per-word quantity the entropy sum averages, and plot that against length. The relationship is clean and points the natural way: the more information a word carries, the longer it tends to be. *The*, *of*, *and*, *to* carry almost no information and are tiny, while the rarest words carry the most and run longest.
+
+This is what an efficient code looks like. Shannon's source coding theorem says the ideal length of a codeword is its information content, -log2(p) bits, which is why Morse gives the common letter *e* a single dot and saves long strings for rare letters. Entropy is the average of that same information across the whole vocabulary, the floor on how short the typical word can be, and a language that ties length to information is pressing toward that floor. The pattern even has a name, *Zipf's law of abbreviation*. The length-and-information line and the entropy number are two views of one fact: language behaves like a code under pressure to stay brief.
+
 ## Zipf's law
 
 Rank the words of almost any text from most to least frequent and plot rank against frequency on logarithmic axes, and the result is close to a straight line. The pattern holds across languages and periods. Whether it's a deep fact or a near-inevitable one is a real and worthwhile argument.
