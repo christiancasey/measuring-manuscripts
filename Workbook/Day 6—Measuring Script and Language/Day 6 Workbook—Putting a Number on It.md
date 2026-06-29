@@ -80,7 +80,6 @@ Redundancy is not waste. It is what lets you read a smudged manuscript, finish a
 
 ### Discussion questions
 
-- English letters carry well under 2 bits each against a maximum near 4.75. Where does all that redundancy come from?
 - Redundancy lets you read damaged text. Give a concrete example from manuscript work where redundancy saved a reading.
 - A heavily abbreviated medieval script squeezes out redundancy on the page. What does that predict about how hard it is to read, and to expand?
 - If two manuscripts of the same work report different redundancy, name a dull reason that has nothing to do with the scribes.
@@ -137,7 +136,7 @@ Real texts bend away from the straight line at both ends: the very most common w
 
 One classic explanation is the *principle of least effort*: speakers economize by reusing a few words constantly, listeners would prefer many specific words, and the compromise between the two pressures lands on a Zipf-like distribution. It is a plausible story about language.
 
-Here is the catch, and it is the heart of the day. Random typing also produces a Zipf curve. Imagine a monkey hitting keys at random, including a space bar. The "words" are the runs of letters between spaces. Short words come out far more often than long ones simply because a space is more likely to fall soon than late, and that alone yields a clean rank-frequency line with slope near $-1$. No grammar, no meaning, no least effort. The notebook generates exactly this gibberish and plots it. The curve is as tidy as the one from real prose.
+Here is the catch. Random typing also produces a Zipf curve. Imagine a monkey hitting keys at random, including a space bar. The "words" are the runs of letters between spaces. Short words come out far more often than long ones simply because a space is more likely to fall soon than late, and that alone yields a clean rank-frequency line with slope near $-1$. No grammar, no meaning, no least effort. The notebook generates exactly this gibberish and plots it. The curve is as tidy as the one from real prose.
 
 So finding Zipf's law in a text shows much less than it first appears. The curve is nearly inevitable for anything that chops a stream into tokens of varying length. It is evidence of very little on its own.
 

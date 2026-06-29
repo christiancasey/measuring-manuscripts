@@ -28,11 +28,11 @@ Phonetics is the study of speech sounds as physical events: how the body makes t
 
 ### Speech is waves in air
 
-Every speech sound starts as a column of air leaving the lungs. On its way out it passes through three stations, and each one does something to it.
+Every speech sound starts as a column of air leaving the lungs. On its way out it passes through three stations, and each station does something to it.
 
 First the *lungs* push the air up. They are the power supply. On their own they make no sound, only a stream.
 
-Then the air reaches the *larynx*, the box of cartilage you can feel as your "Adam's apple." Stretched across it are the *vocal folds* (older books say "vocal cords"), two flaps of tissue. They can do two things. Held apart, they let the air pass silently, as during the *s* of *sip*. Drawn together and set vibrating by the airstream, they buzz, opening and closing hundreds of times a second. This is *voicing*, the raw sound behind every vowel and behind consonants like *z*. The rate of that buzz is the *pitch* of the voice: faster buzz, higher pitch.
+Then the air reaches the *larynx*, the box of cartilage you can feel as your "Adam's apple." Stretched across it are the *vocal folds* (older books say "vocal cords"), two flaps of tissue. They can do two things. Held apart, they let the air pass silently, as during the *s* of *bus*. Drawn together and set vibrating by the airstream, they *buzz*, opening and closing hundreds of times a second. This is *voicing*, the raw sound behind every vowel and behind consonants like *z*. The rate of that buzz is the *pitch* of the voice: faster buzz, higher pitch.
 
 Above the larynx is the *supralaryngeal vocal tract*, everything from the larynx up to the lips and nostrils. This is the chamber that shapes the buzz into recognizable sounds. The parts that do the shaping are the *articulators*:
 
@@ -144,7 +144,7 @@ Phonemes are written in slashes, /p/. Specific sounds in brackets, [pʰ] for the
 
 Two more facts about sounds in sequence, because they bear on reading scribes:
 
-*Coarticulation* is the way neighboring sounds bleed into each other. You don't say a word as a string of separate sounds. The tongue is already moving toward the next target while finishing the last. The /k/ of *key* is made further forward than the /k/ of *cool*, pulled there by the front vowel that follows. Speech is smeared, not beaded.
+*Coarticulation* is the way neighboring sounds bleed into each other. You don't say a word as a string of separate sounds. The tongue is already moving toward the next target while finishing the last. The /k/ of *key* is made further forward than the /k/ of *cool*, pulled there by the front vowel that follows. Speech is continuous, not discrete.
 
 *Assimilation* is coarticulation gone far enough to change the category. *in-* plus *possible* becomes *impossible*: the /n/ turns into /m/ to match the following lip sound. English *handbag* is usually said "hambag." When a scribe writes what assimilation produced rather than the "underlying" form, that spelling is evidence about how the word was actually said.
 
