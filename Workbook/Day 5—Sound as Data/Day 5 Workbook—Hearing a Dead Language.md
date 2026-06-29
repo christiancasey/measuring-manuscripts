@@ -2,7 +2,7 @@
 
 No one has heard Chaucer's English spoken, and no one has heard Coptic spoken in centuries. Yet we can say a surprising amount about how both sounded. Today we work out how, starting from a poem and ending at a measurement.
 
-```{admonition} Companion notebook—*Measuring vowels*
+```{admonition} Companion notebook: *Measuring vowels*
 :class: tip
 Open **Day 5 Notebook—Measuring vowels.ipynb** in Colab and run along as you read. You'll build a vowel from scratch, listen to it, then measure it back.
 
@@ -204,19 +204,30 @@ The notebook then turns the same tool on Coptic, and this is the strongest resul
 
 A chart is a claim, so we test it. Real vowel systems spread their vowels as far apart as they can, since vowels sitting on top of each other are hard to tell apart. The notebook checks whether the reconstructed vowels are more dispersed than a random relabelling of the same recordings would give. They are, well beyond chance (below one in a thousand on only a few clips per vowel, and about nineteen times more dispersed than chance in the full study). That is the fingerprint of a real, working vowel system rather than noise.
 
+```{figure} ./apophthegmata_patrum_ms.png
+:alt: An Arabic-language manuscript in the Coptic script
+:name: apophthegmata-patrum
+
+An Arabic-language manuscript in the Coptic script, the *Sayings of the Desert Fathers*, believed to be written in the 10th century CE.
+```
 ## From living sound to a dead language
 
 Coptic, the last stage of Egyptian, was written in letters borrowed from Greek, and no one knows how those letters map onto real spoken vowels. We read the consonants with some confidence, relatively speaking. But there's a second, stranger window: a medieval manuscript that writes *Arabic* (a living language) in *Coptic* letters. It's a copy of the *Sayings of the Desert Fathers*, made when Coptic was fading but still read, by someone fluent enough in the script to spell another language with it. A living language we can still hear, written in the script we're trying to decode. In miniature, it's a Rosetta Stone for Coptic pronunciation.
 
 The tempting way to read it is by eye: find a word, see which Coptic letter sits over which Arabic sound, declare a result. The whole point of the method is that this is exactly how you fool yourself. Choose your examples and you can "prove" almost any pronunciation you like. The evidence will oblige, and your own expectations will pick the examples for you. So the method refuses the eye. A program aligns the whole text, Coptic letter against Arabic letter, and measures how strongly each pair travels together (a correlation called the phi coefficient).
 
-The dull results are the proof it works: the letters everyone already agrees on, ⟨ⲗ⟩, ⟨ⲙ⟩, ⟨ⲛ⟩ for *l, m, n*, come out firmly paired, as they must. The interesting results are the payoff, the cases where a letter behaves differently than the handbooks assume. ⟨ⲅ⟩, normally read *g*, lines up with [ɣ]. ⟨ⲃ⟩, normally *b*, lines up with [w]. And there's a fresh possibility for the sound of ⟨ϫ⟩. The same machine that confirms the obvious is the one you then trust on the doubtful. The notebook runs a small version of that measurement and draws the correlation table as a colormap. The full method and results are written up [in this paper](https://drive.google.com/file/d/1tKmY-xWphnx7Prr2VolzGU-ccHwoHhi4/view?usp=sharing).
+The dull results are the proof it works: the letters everyone already agrees on, ⟨ⲗ⟩, ⟨ⲙ⟩, ⟨ⲛ⟩ for *l, m, n*, come out firmly paired, as they must. The interesting results are the payoff, the cases where a letter behaves differently than the handbooks assume. ⟨ⲅ⟩, normally read *g*, lines up with [ɣ]. ⟨ⲃ⟩, normally *b*, lines up with [w]. And there's a fresh possibility for the sound of ⟨ϫ⟩. The same machine that confirms the obvious is the one you then trust on the doubtful. That correlation table is drawn below as a colormap. The full method and results are written up [in this paper](https://drive.google.com/file/d/1tKmY-xWphnx7Prr2VolzGU-ccHwoHhi4/view?usp=sharing).
 
 The consonants are done. The vowels are the harder half, and where this morning's tools come back. Measure the vowels of the recorded words with the formant code you already have, line them against the Coptic spellings, and reason toward sounds no one has heard in a thousand years. The notebook gives a first taste of that, one clean recording per vowel placed on the chart. The full multi-speaker version is the larger project.
 
-The reasoning leans on assumptions, and the discipline is in stating them out loud: that the living language keeps the relevant distinctions, that the spelling is shallow enough to trust, that the scribe heard what we think he heard. None of it is certain. All of it is more than we had.
+The reasoning leans on assumptions, and the discipline is in stating them clearly: that the living language keeps the relevant distinctions, that the spelling is shallow enough to trust, that the scribe heard what we think he heard. None of it is certain, but all of it is more than we had before.
 
-> 🔧 *TO BUILD:* a panel from the alignment colormap (the full Coptic–Arabic correlation table). (Colormap and code: github.com/christiancasey/coptic-arabic.) The vowel half now has a working toy: see *Measuring real vowels* above and the `coptic_audio/` folder.
+```{figure} coptic_arabic_phi_colormap.png
+:alt: Coptic-Arabic letter correspondence measured as a phi coefficient
+:name: coptic-arabic-phi
+
+The full correspondence table: one cell per Coptic letter against each Arabic letter, measured as the phi correlation across the 485 aligned word pairs (bright means the two almost always travel together). The bright near-diagonal is the proof the method works, the letters everyone already agrees on falling out on their own: ⲗ with *l*, ⲙ with *m*, ⲛ with *n*, ⲣ with *r*, ϣ with *š*, ϥ with *f*, ϫ with *j*. The bright off-diagonal cells are the payoff: ⲃ lines up with Arabic *w*, ⲡ with *b* (Arabic has no *p*), and ⲕ with the back consonant *q*. Computed from the parallel word list, with the full code at [github.com/christiancasey/coptic-arabic](https://github.com/christiancasey/coptic-arabic).
+```
 
 ### Discussion questions
 - The method won't let a human look at the data until the very end. What does that buy you and what might it miss?

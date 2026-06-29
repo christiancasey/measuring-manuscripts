@@ -2,7 +2,7 @@
 
 A text that survives in several copies is never copied perfectly. The differences between copies are evidence. Today you'll line the copies up to see where they agree and differ, and work out which readings are Chaucer's.
 
-```{admonition} Companion notebook—*Lining up the witnesses*
+```{admonition} Companion notebook: *Lining up the witnesses*
 :class: tip
 Open **Day 2 Notebook—Lining up the witnesses.ipynb** in Colab and run along as you read.
 

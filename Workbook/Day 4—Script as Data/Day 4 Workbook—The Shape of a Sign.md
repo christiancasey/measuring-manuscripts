@@ -4,7 +4,7 @@
 The topic today includes principal components analysis (PCA). If you don't know what this is yet, you will benefit from watching [this video](https://www.youtube.com/watch?v=_6UjscCJrYE).
 ```
 
-A letter is not one shape but a range of shapes. No two scribes draw it the same way. In fact, no writer every writes a letter the exact same way twice. Today you'll measure how close those shapes are to one another.
+A letter is not one shape but a range of shapes. No two scribes draw it the same way. In fact, no writer ever writes a letter the exact same way twice. Today you'll measure how close those shapes are to one another.
 
 ```{admonition} Companion notebook: *Measuring the shape of a sign*
 :class: tip

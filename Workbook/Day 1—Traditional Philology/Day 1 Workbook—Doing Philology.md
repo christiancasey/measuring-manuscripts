@@ -52,7 +52,7 @@ the tender shoots, and the young sun
 has run half his course in the Ram,
 and the small birds make melody
 that sleep all night with open eyes
-(so Nature pricks them in their hearts)—
+(so Nature pricks them in their hearts),
 then people long to go on pilgrimages,
 and pilgrims to seek foreign shores
 and far-off shrines, known in various lands;
@@ -110,8 +110,8 @@ With four copies it is hard. With eighty it is hopeless by hand. Tomorrow we lin
 
 Middle English is full of words that look like ones you know and mean something else. Read these, write down what you think each bold word means, then check the gloss.
 
-- *Of which *vertú* engendred is the flour*
-- *So priketh hem Natúre in hir *corages**
+- Of which *vertú* engendred is the flour
+- So priketh hem Natúre in hir *corages*
 - a man Chaucer calls *nyce*
 - a *sely* widow
 - a *lewed* man
@@ -193,7 +193,7 @@ A computer doesn't read a text the way you do, and it isn't meant to. What it of
 
 Now we'll move to the Notebook to see some basic computational techniques in action. 
 
-```{admonition} Companion notebook—*A text three ways*
+```{admonition} Companion notebook: *A text three ways*
 :class: tip
 Open **Day 1 Notebook—A text three ways.ipynb** and scroll to *Measuring: which words repeat?*.
 

@@ -123,7 +123,7 @@ Write your one honest limitation before you have a result, not after. The ones y
 ### Discussion questions
 
 - What's the single most likely reason your result could be misleading? State it in one specific sentence.
-- Does naming a limitation weaken a project or strengthen it? Whom is the limitation for—you, or your reader?
+- Does naming a limitation weaken a project or strengthen it? Whom is the limitation for, you or your reader?
 - If you had one more week, would you spend it fixing your limitation or sharpening your question? Why?
 
 ## Your project spec

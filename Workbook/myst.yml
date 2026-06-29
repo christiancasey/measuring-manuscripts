@@ -5,12 +5,25 @@ project:
   # the .ipynb files are companion Colab notebooks, not book pages
   exclude:
     - '**/*.ipynb'
+  # Explicit reading order, so the book does not sort Day 10 before Day 2.
+  toc:
+    - file: Syllabus.md
+    - file: "Day 0—Teaser/Day 0 Workbook—A Taste of the Course.md"
+    - file: "Day 1—Traditional Philology/Day 1 Workbook—Doing Philology.md"
+    - file: "Day 2—Textual Criticism/Day 2 Workbook—Lining Up the Witnesses.md"
+    - file: "Day 3—Text as Data/Day 3 Workbook—Turning Text into Data.md"
+    - file: "Day 4—Script as Data/Day 4 Workbook—The Shape of a Sign.md"
+    - file: "Day 5—Sound as Data/Day 5 Workbook—Hearing a Dead Language.md"
+    - file: "Day 6—Measuring Script and Language/Day 6 Workbook—Putting a Number on It.md"
+    - file: "Day 7—Visualization/Day 7 Workbook—Seeing the Pattern.md"
+    - file: "Day 8—Research Questions/Day 8 Workbook—From Curiosity to Project.md"
+    - file: "Day 9—Sustainability and Publishing/Day 9 Workbook—Publish It So It Lasts.md"
+    - file: "Day 10—Project Workshop and Publication/Day 10 Workbook—Ship It.md"
   # title:
   # description:
   # keywords: []
   # authors: []
   # github:
-  # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
   template: book-theme
   # options:
