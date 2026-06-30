@@ -1,5 +1,9 @@
 # Day 5 · Hearing a Dead Language
 
+```{note}
+The topic today includes quite a bit about phonetics and phonology, especially regarding vowel sounds. If this subject is new to you, you might watch [this video](https://www.youtube.com/watch?v=FdldD0-kEcc) in preparation.
+```
+
 No one has heard Chaucer's English spoken, and no one has heard Coptic spoken in centuries. Yet we can say a surprising amount about how both sounded. Today we work out how, starting from a poem and ending at a measurement.
 
 ```{admonition} Companion notebook: *Measuring vowels*
