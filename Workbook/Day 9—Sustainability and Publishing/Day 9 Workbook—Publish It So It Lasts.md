@@ -4,7 +4,7 @@ By the end of today your project will have a real web address. The harder goal i
 
 ```{admonition} Start from the template
 :class: tip
-Everything today is built on a small starter website in **project-template/**. It is already a working GitHub Pages site. Copy it, make it yours, and put it online. The steps are in *Publish your page* below.
+Everything today is built on a small starter website in [**project-template/**](https://github.com/christiancasey/measuring-manuscripts-project-template). It is already a working GitHub Pages site. Copy it, make it yours, and put it online. The steps are in *Publish your page* below.
 ```
 
 ## Why projects die
