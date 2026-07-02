@@ -10,13 +10,6 @@ This is a ninety-minute sample of a two-week course, *Measuring Manuscripts*. It
 
 *Philology*, from the Greek for "love of words", is the careful study of old texts: what a text says, how it has come down to us, and what it meant to the people who wrote it. *Computational philology* is the same craft carried out with a computer doing the parts no person could manage by hand. Given a single word, it can find every place that word occurs across thousands of texts. Given a single sign, it can rank the most similar shapes among thousands of manuscripts. It is not a substitute for reading. It answers questions that close reading cannot reach on its own, and returns us to the text with new facts in hand.
 
-```{admonition} Companion notebook: *A Taste of the Course*
-:class: tip
-Everything below happens live in the notebook. Open it in Colab and run the cells as we go.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/christiancasey/measuring-manuscripts/blob/main/Workbook/Day%200%E2%80%94Teaser/Day%200%20Notebook%E2%80%94A%20Taste%20of%20the%20Course.ipynb)
-```
-
 ## First, be the editor
 
 We rarely possess the original of anything. Chaucer's *Canterbury Tales* survive in roughly eighty handwritten copies, no two identical and none in his own hand. Each copy is a *witness*, an imperfect testimony to what he wrote, and where the witnesses disagree someone must weigh them and decide. That work is *textual criticism*.
@@ -35,6 +28,13 @@ The couplet rhymes, and the second line ends in *londes*, so the first line ough
 ## The tour
 
 What follows is a walk through the companion notebook. Each stop is a method drawn from the course itself, shown here in a few seconds rather than taught in full.
+
+```{admonition} Companion notebook: *A Taste of the Course*
+:class: tip
+Everything below happens live in the notebook. Open it in Colab and run the cells as we go.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/christiancasey/measuring-manuscripts/blob/main/Workbook/Day%200%E2%80%94Teaser/Day%200%20Notebook%E2%80%94A%20Taste%20of%20the%20Course.ipynb)
+```
 
 ### Part 1 · Text as data
 
