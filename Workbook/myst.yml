@@ -8,6 +8,7 @@ project:
   # Explicit reading order, so the book does not sort Day 10 before Day 2.
   toc:
     - file: Syllabus.md
+    - file: "Final Projects.md"
     - file: "Day 0—Teaser/Day 0 Workbook—A Taste of the Course.md"
     - file: "Day 1—Traditional Philology/Day 1 Workbook—Doing Philology.md"
     - file: "Day 2—Textual Criticism/Day 2 Workbook—Lining Up the Witnesses.md"
