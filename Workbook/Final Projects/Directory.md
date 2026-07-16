@@ -6,4 +6,4 @@
 - [Oui Oui Baguette by Alexandre Mourlon](https://almourlon.github.io/ouiouibaguette/)
 - [Unk by Christopher Benedetti](https://christopherbenedetti.github.io/measuringmanuscriptproject2026/)
 - [Unk by Yiyang Huang](https://yiyang26.github.io/RG1-NER-exploration/)
-- [Unk by Max Manzer]()
+- [What Degree of Entropy Do Field Post Letters Have? by Max Manzer](https://ducha69.github.io/Feldpost/)
